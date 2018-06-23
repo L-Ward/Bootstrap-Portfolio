@@ -30,6 +30,11 @@
     color: #777;
 }
 
+.navbar-nav .nav-link:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
 .center-btn {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -127,7 +132,7 @@ footer {
     .container-no-padding {
         padding: 0px;
     }
-    
+
     .name-background {
         background-color: #4aaaa5;
         width: 100%;
