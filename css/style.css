@@ -1,11 +1,16 @@
 /* Navigation menu */
+.nav-background {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    margin: 0px;
+}
+
 .navbar {
     background-color: #fff;
     max-width: 960px;
     height: 100%;
-    margin: 0px auto 20px auto;
     padding: 0px;
-    border-bottom: 1px solid #cccccc;
 }
 
 .name {
@@ -29,15 +34,22 @@
     border-right: 1px solid #ccc;
 }
 
-/* Body styling for all pages */
+/* Content area styling for all pages */
 body {
     background-image: url(../images/seigaiha/seigaiha.png);
 }
 
-.container {
+.container-content {
     border: 1px solid #ccc;
     background-color: #fff;
     max-width: 960px;
+    margin: 20px auto 70px auto;
+}
+
+.title {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Footer */
@@ -55,10 +67,10 @@ footer {
 }
 
 /* Index content */
-#profilePic {
+.profilePic {
     max-width: 200px;
-    height: auto;
-    margin: 30px 5px 10px 5px;
+    max-height: 300px;
+    padding-right: 10px;
 }
 
 .col {
@@ -66,7 +78,7 @@ footer {
 }
 
 /* Media Queries */
-
+/* Media query for Navbar name formatting */
 @media only screen and (max-width: 576px) {
 
     .name-background {
