@@ -2,10 +2,7 @@
     margin-bottom: 20px; 
 }
 
-body {
-    background-image: url(../images/seigaiha/seigaiha.png);
-}
-
+/* Navigation menu */
 .navMenu {
     background-color: #fff;
     border-bottom: 1px solid #cccccc;
@@ -23,10 +20,15 @@ body {
     background-color: #4aaaa5;
     color: #fff;
     margin: 0px;
-    padding: 25px 30px;
+    padding: 30px 30px;
     font-size: 28px;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* Body styling for all pages */
+body {
+    background-image: url(../images/seigaiha/seigaiha.png);
 }
 
 .container {
@@ -35,16 +37,7 @@ body {
     background-color: #fff;
 }
 
-#profilePic {
-    max-width: 200px;
-    height: auto;
-    margin: 30px 5px 10px 5px;
-}
-
-.col {
-    padding: 10px 10px;
-}
-
+/* Footer */
 footer {
     position: fixed;
     bottom: 0px;
@@ -56,4 +49,15 @@ footer {
     margin: 10px 0px 0px 0px;
     padding: 20px 0px 0px 0px;
     color: #fff;
+}
+
+/* Index content */
+#profilePic {
+    max-width: 200px;
+    height: auto;
+    margin: 30px 5px 10px 5px;
+}
+
+.col {
+    padding: 10px 10px;
 }
