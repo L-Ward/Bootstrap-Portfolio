@@ -20,7 +20,8 @@
     padding: 20px 20px;
     font-size: 28px;
     font-weight: bold;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -49,7 +50,8 @@ body {
 .title {
     color: #4aaaa5;
     font-weight: bold;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
 }
 
 hr {
@@ -82,6 +84,40 @@ footer {
 
 .col {
     padding: 10px 10px;
+}
+
+/* Contact formatting */
+.btn-primary {
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 15px;
+
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+}
+
+/* Portfolio formatting */
+.img-holder {
+    position: relative;
+    width: 300px;
+}
+
+.label {
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 /* Media Queries */
