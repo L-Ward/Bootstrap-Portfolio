@@ -1,15 +1,11 @@
 /* Navigation menu */
-.navMenu {
-    background-color: #fff;
-    border-bottom: 1px solid #cccccc;
-}
-
 .navbar {
     background-color: #fff;
     max-width: 960px;
     height: 100%;
     margin: 0px auto 20px auto;
     padding: 0px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .name {
