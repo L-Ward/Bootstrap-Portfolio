@@ -52,6 +52,13 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+hr {
+    height: 2px;
+    border: 0;
+    color: lightgrey;
+    background-color: lightgrey;
+}
+
 /* Footer */
 footer {
     position: fixed;

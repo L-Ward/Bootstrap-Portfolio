@@ -15,27 +15,63 @@
 <body>
 
     <!-- Navbar -->
-    <div class="navbar flex-column flex-sm-row">
-        <div class="name-background">
-            <h1 class="name">Leah Ward</h1>
+    <nav class="nav-background">
+            <div class="navbar mx-auto flex-column flex-sm-row">
+                <div class="name-background">
+                    <h1 class="name">Leah Ward</h1>
+                </div>
+                <ul class="navbar-nav flex-row py-2">
+                    <li>
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link center-btn" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Content container -->
+    <div class="container">
+        <div class="container-content p-3">
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="title">Contact</h3>
+                    <hr>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="name" class="form-control" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="textArea">Message:</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+            </form>
+
         </div>
-        <ul class="navbar-nav flex-row py-2">
-            <li>
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li>
-                <a class="nav-link center-btn" href="contact.html">Contact</a>
-            </li>
-            <li>
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-        </ul>
     </div>
 
-
+    <!-- Footer -->
     <footer>
-        <span class="copyright">Copyright &#169</span>
+        <div class="container">
+            <span class="copyright">Copyright &#169</span>
+        </div>
     </footer>
+
 </body>
 
 </html>
