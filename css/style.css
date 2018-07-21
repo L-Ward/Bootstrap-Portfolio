@@ -107,6 +107,11 @@ footer {
 }
 
 /* Portfolio formatting */
+img {
+    width: 300px;
+    height: 300px;
+}
+
 .img-holder {
     position: relative;
     width: 300px;
